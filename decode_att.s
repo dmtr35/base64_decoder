@@ -15,7 +15,6 @@ decode:
     xorq %rax, %rax
     xorq %rdx, %rdx
     xorq %rcx, %rcx
-    xorq %r8, %r8
     xorq %r9, %r9
     xorq %r10, %r10
     lea symbols(%rip), %rbx

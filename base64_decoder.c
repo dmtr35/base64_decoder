@@ -21,6 +21,7 @@ int main(int argc, char *argv[]) {
 
         decode(decoded_buf, original_text);
 
+        printf("\n");
         printf("%s\n", decoded_buf);
         free(decoded_buf);
     } else {
@@ -32,6 +33,7 @@ int main(int argc, char *argv[]) {
 
         encode(encoded_buf, original_text, original_len);
 
+        printf("\n");
         printf("%s\n", encoded_buf);
         free(encoded_buf);
     }
